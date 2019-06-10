@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MovieCard from './MovieCard';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 export default class Movie extends Component {
